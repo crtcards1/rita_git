@@ -1,0 +1,38 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2026-01-12-11-35-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1630601112.426982	CmNklV3CfqBB0IGIh6	10.0.0.113	50366	10.0.0.9	389	19	base	never	-	1	success	-	(objectclass=*)	-
+1630601112.435717	CGirF32fOVLRhX8WN	10.0.0.113	56453	10.0.0.9	389	24	base	never	-	1	success	-	(&(&(&(DnsDomain=ForestDnsZones.fartmachines.net)(Host=DESKTOP-FART1PC))(NtVer=0x20000016))(DnsHostName=DESKTOP-FART1PC.fartmachines.net))	-
+1630601112.557647	C4KFnJ2Lb978yp5Df	10.0.0.113	55138	10.0.0.9	389	25	base	never	-	1	success	-	(&(&(&(DnsDomain=DomainDnsZones.fartmachines.net)(Host=DESKTOP-FART1PC))(NtVer=0x20000016))(DnsHostName=DESKTOP-FART1PC.fartmachines.net))	-
+1630601157.261458	CwiUL24dJ9e2mjCo3d	10.0.0.113	58661	10.0.0.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1630601157.265723	CwiUL24dJ9e2mjCo3d	10.0.0.113	58661	10.0.0.9	389	4	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630601157.267241	CwiUL24dJ9e2mjCo3d	10.0.0.113	58661	10.0.0.9	389	5	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630601157.268100	CwiUL24dJ9e2mjCo3d	10.0.0.113	58661	10.0.0.9	389	6	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630601157.276851	C0Ez9m1M9OMxzVMmi1	10.0.0.113	58662	10.0.0.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1630601157.278141	C0Ez9m1M9OMxzVMmi1	10.0.0.113	58662	10.0.0.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=fartmachines,DC=net	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=fartmachines,DC=net'??	(ObjectClass=*)	-
+1630601923.743184	C4FTEq2YnN7sTczsSf	10.0.0.113	54057	10.0.0.9	389	28	base	never	-	1	success	-	(&(&(&(&(DnsDomain=fartmachines.net.)(Host=DESKTOP-FART1PC))(DomainGuid=11c8b61d-d6f6-4127-ad3e-2a0f171461b8))(NtVer=0x00000016))(DnsHostName=DESKTOP-FART1PC.fartmachines.net))	-
+1630601923.891736	CKeUR627mD5XWZFPUa	10.0.0.113	58706	10.0.0.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1630601923.896469	CKeUR627mD5XWZFPUa	10.0.0.113	58706	10.0.0.9	389	4	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630601923.897242	CKeUR627mD5XWZFPUa	10.0.0.113	58706	10.0.0.9	389	5	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630601923.898240	CKeUR627mD5XWZFPUa	10.0.0.113	58706	10.0.0.9	389	6	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630601923.905393	Co6vyV2l1qVyNqfr28	10.0.0.113	58707	10.0.0.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1630601923.906274	Co6vyV2l1qVyNqfr28	10.0.0.113	58707	10.0.0.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=fartmachines,DC=net	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=fartmachines,DC=net'??	(ObjectClass=*)	-
+1630602017.539343	Cb4L26aBKLUDeaLCh	10.0.0.113	58715	10.0.0.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1630602017.543550	Cb4L26aBKLUDeaLCh	10.0.0.113	58715	10.0.0.9	389	4	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630602017.544571	Cb4L26aBKLUDeaLCh	10.0.0.113	58715	10.0.0.9	389	5	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630602017.545622	Cb4L26aBKLUDeaLCh	10.0.0.113	58715	10.0.0.9	389	6	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630602017.554384	CISqlz3HH9WPjuWCuf	10.0.0.113	58716	10.0.0.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1630602017.557195	CISqlz3HH9WPjuWCuf	10.0.0.113	58716	10.0.0.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=fartmachines,DC=net	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=fartmachines,DC=net'??	(ObjectClass=*)	-
+1630602589.066771	CQdJO82AVSgGLOnLZ4	10.0.0.113	58852	10.0.0.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1630602589.071828	CQdJO82AVSgGLOnLZ4	10.0.0.113	58852	10.0.0.9	389	4	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630602589.072507	CQdJO82AVSgGLOnLZ4	10.0.0.113	58852	10.0.0.9	389	5	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630602589.073610	CQdJO82AVSgGLOnLZ4	10.0.0.113	58852	10.0.0.9	389	6	base	never	CN=DESKTOP-FART1PC,CN=Computers,DC=fartmachines,DC=net	1	success	-	(objectclass=*)	-
+1630602589.081410	CEcB0q3wt1Tl6x9Rv4	10.0.0.113	58853	10.0.0.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1630602589.082818	CEcB0q3wt1Tl6x9Rv4	10.0.0.113	58853	10.0.0.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=fartmachines,DC=net	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=fartmachines,DC=net'??	(ObjectClass=*)	-
+1630602927.707516	Cfuf9O18cuImYvTTpf	10.0.0.113	55800	10.0.0.9	389	29	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=fartmachines.net.)(Host=DESKTOP-FART1PC))(DomainSid=S-1-5-21-1051830756-1092467935-301877761))(DomainGuid=11c8b61d-d6f6-4127-ad3e-2a0f171461b8))(NtVer=0x00000016))(DnsHostName=DESKTOP-FART1PC.fartmachines.net))	-
+#close	2026-01-12-11-35-12

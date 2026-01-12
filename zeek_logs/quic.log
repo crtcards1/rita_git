@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	quic
+#open	2026-01-12-11-35-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	client_initial_dcid	client_scid	server_scid	server_name	client_protocol	history
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string
+1630601099.397878	Cq2P6i1LDO2BIfKru3	10.0.0.113	58650	31.13.93.26	443	draft-29	1d9195fbdb827386	(empty)	49ce0eff39854366	connect.facebook.net	h3-29	ISiishhHHh
+1630601092.901586	CIV7943WeiabarvMV7	10.0.0.113	62585	172.217.14.168	443	draft-29	e48c6cd7a5ec6f3b	(empty)	e48c6cd7a5ec6f3b	www.googletagmanager.com	h3-29	ISishhhhHHH
+1630601100.352666	Cym71A4APuApeY4bjb	10.0.0.113	55676	142.250.115.157	443	draft-29	1577f697480982a4	(empty)	1577f697480982a4	stats.g.doubleclick.net	h3-29	ISishhhhHHH
+1630601100.663794	CYOzSi2mFzFJ5Mo7vg	10.0.0.113	50262	35.190.60.146	443	draft-29	cd9244eab385fd03	(empty)	cd9244eab385fd03	id.rlcdn.com	h3-29	ISishhhhhHHHH
+1630601100.795000	CZrVOqeVm4nBntR6d	10.0.0.113	54755	142.251.32.164	443	draft-29	5736a54ed54b44a1	(empty)	5736a54ed54b44a1	www.google.com	h3-29	ISisIhhhhHHhHH
+1630601101.273722	CwJwfug3jRQ4lhWn8	10.0.0.113	50198	34.98.64.218	443	draft-29	21e24a03eb3e73c1	(empty)	21e24a03eb3e73c1	us-u.openx.net	h3-29	ISishhhIHHHihH
+1630601101.311369	CtwVI21NqbBT0UVf92	10.0.0.113	60234	142.250.68.162	443	draft-29	be3aebe21fe37368	(empty)	be3aebe21fe37368	cm.g.doubleclick.net	h3-29	ISisIhhhhHHH
+1630601100.420783	CwxPYx1UGKiR1F5A9e	10.0.0.113	50674	31.13.93.35	443	draft-29	b09aa320ab704786	(empty)	69bd0abb608c0565	www.facebook.com	h3-29	ISIiishhHHih
+1630601099.396622	CoWSRe28a9kQ0XxtP5	10.0.0.113	54089	142.250.115.102	443	draft-29	03f514e958460c27	(empty)	03f514e958460c27	www.google-analytics.com	h3-29	ISishhIHhhHH
+#close	2026-01-12-11-35-12
