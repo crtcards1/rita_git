@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-01-14-12-33-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1.000000	-	-	-	-	-	truncated_ethernet_frame	-	F	zeek	ETHERNET
+282.572454	CogVzw2mydJQzfzjO4	10.0.2.2	11	10.0.2.19	0	bad_ICMP_checksum	-	F	zeek	ICMP
+47235.954475	CwUH8K11jXXyRTxYL8	90.156.118.144	5237	10.0.2.19	49429	connection_originator_SYN_ack	-	F	zeek	TCP
+47242.961785	CwUH8K11jXXyRTxYL8	10.0.2.19	49429	90.156.118.144	5237	data_before_established	-	F	zeek	TCP
+85233.600392	CuRaMqS0cF6qbxXD7	10.0.2.19	49711	90.156.118.144	5237	data_before_established	-	F	zeek	TCP
+248907.755711	CdHDjf1rfbKTf1wGZ	10.0.2.19	1701	99.169.222.118	7026	dnp3_header_lacks_magic	-	F	zeek	DNP3_UDP
+248907.755711	CdHDjf1rfbKTf1wGZ	10.0.2.19	1701	99.169.222.118	7026	dnp3_corrupt_header_checksum	-	F	zeek	DNP3_UDP
+897578.154643	CLBsII3N9Hf51oazb	90.156.118.144	5237	10.0.2.19	52386	connection_originator_SYN_ack	-	F	zeek	TCP
+897589.033766	CLBsII3N9Hf51oazb	10.0.2.19	52386	90.156.118.144	5237	data_before_established	-	F	zeek	TCP
+#close	2026-01-14-12-33-38

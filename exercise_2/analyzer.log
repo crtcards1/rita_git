@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2026-01-14-12-33-36
+#fields	ts	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	failure_reason	failure_data
+#types	time	string	string	string	string	addr	port	addr	port	enum	string	string
+297459.302674	packet	GTPV1	C4BXLl2ZMj5tSawljg	-	10.0.2.19	1701	122.179.165.180	2123	udp	GTPv1 bad Version	-
+#close	2026-01-14-12-33-38
